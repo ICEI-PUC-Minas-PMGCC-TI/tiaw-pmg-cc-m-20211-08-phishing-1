@@ -6,8 +6,7 @@ function leComentario() {
         objComentario = JSON.parse(strComentario);
     } else {
         objComentario = {
-        comentarios: [{ data: "02/06/2021", texto: "Muitas informações relevantes, excelente site!" },
-                      { data: "28/05/2021", texto: "Gostei bastante do site, pois achei muito informativo."} ]
+        comentarios: []
         };
     }
 
@@ -71,4 +70,3 @@ function dataAtual() {
 onload = () => {
     //Atualiza os dados da tela
     imprimeComentario();
-};
