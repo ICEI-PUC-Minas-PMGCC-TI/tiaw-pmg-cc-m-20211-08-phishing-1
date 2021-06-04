@@ -6,11 +6,7 @@ function leComentario() {
         objComentario = JSON.parse(strComentario);
     } else {
         objComentario = {
-<<<<<<< HEAD
         comentarios: []
-=======
-        comentarios: []
->>>>>>> 3104f54ba0184cf78321e60a8f744d6b0eeb7ca3
         };
     }
 
