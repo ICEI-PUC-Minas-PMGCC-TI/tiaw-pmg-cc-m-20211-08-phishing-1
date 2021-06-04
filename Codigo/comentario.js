@@ -70,4 +70,3 @@ function dataAtual() {
 onload = () => {
     //Atualiza os dados da tela
     imprimeComentario();
-};
