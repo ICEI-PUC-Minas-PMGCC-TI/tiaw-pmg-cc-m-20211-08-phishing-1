@@ -2,11 +2,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #e5e9f2;
+}
+
 html {
     background-color: #e5e9f2;
 }
 
 header {
+    background-color: #e5e9f2;
+}
+.row{
     background-color: #e5e9f2;
 }
 
@@ -16,6 +23,9 @@ main {
 
 h1 {
     color: #47525e;
+}
+a{
+    text-decoration: none;
 }
 
 #botao {
@@ -36,4 +46,50 @@ h1 {
 h1 {
     color: #47525e;
     text-align: center;
+}
+
+/* Comentarios */
+#style-comentarios {
+    background-color: #d0d0d0;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+#tituloComentario>p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #0b0d12;
+}
+
+.formComentario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#comentario {
+    width: 95%;
+    margin-bottom: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+#enviar {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#tela > p {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff9f5;
+    padding: 6px;
+    border-radius: 5px;
 }
